@@ -5,12 +5,10 @@ import {createGallery, clearGallery, showLoader, hideLoader,
 } from './js/render-functions';
 
 const searchForm = document.querySelector('.form');
-
 searchForm.addEventListener('submit', hahdleSearch);
 
 function hahdleSearch(event) {
-    event.preventDefault();
-    
+    event.preventDefault();    
     const querySearch = event.target.elements['search-text'].value.trim();
 
     if (querySearch === "") {
@@ -31,8 +29,7 @@ function hahdleSearch(event) {
                 });
                 return;
             } 
-                createGallery(data.hits);
-            
+                createGallery(data.hits);            
         })
           .catch(error => {
             iziToast.error({
