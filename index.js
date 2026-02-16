@@ -7,7 +7,7 @@ import{a as u,S as d,i as n}from"./assets/vendor-B5nsgUv9.js";(function(){const 
         <div class="info">
         <p><b>Likes:</b> ${e.likes}</p>
         <p><b>Views:</b> ${e.views}</p>
-        <p><b>Comments:</b> ${e.coments}</p>
+        <p><b>Comments:</b> ${e.comments}</p>
         <p><b>Downloads:</b> ${e.downloads}</p>
         </div>
         </li>                   
